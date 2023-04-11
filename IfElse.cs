@@ -19,6 +19,22 @@ namespace Day2_Programming_Constructs
             else
             {
                 Console.WriteLine("Given integers is not Equal");
+
+
+            }
+
+
+            public void EvenOrOdd(int givenData)
+            {
+                if (givenData % 2 == 0)
+                {
+                    Console.WriteLine("Given Number is Even Number");
+                }
+                else
+                {
+                    Console.WriteLine("Ggiven Number is Odd Number");
+                }
             }
         }
     }
+}
